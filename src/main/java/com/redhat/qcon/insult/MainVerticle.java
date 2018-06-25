@@ -174,5 +174,5 @@ public class MainVerticle extends AbstractVerticle {
                                 c -> startFuture.complete(),
                                 startFuture::fail
                         );
-        }
+        } //work now
 }
